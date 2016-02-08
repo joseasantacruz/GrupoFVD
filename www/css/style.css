@@ -1,1 +1,7 @@
 /* Empty. Add your own CSS if you like */
+.login {
+  /*background: url('../img/smg_contorno_transparente.png');*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
