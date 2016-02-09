@@ -1,0 +1,54 @@
+instalar nodejs
+npm install -g ionic cordova bower
+ionic start -a "Grupo FVD" -i app.grupofvd GrupoFVD sidemenu
+
+ionic start -a "OpenBici" -i app.openbici OpenBici sidemenu
+
+ionic platform add ios
+ionic platform add android
+ionic platform add windows
+--emular la app en un navrgador
+ionic serve -p $PORT
+ionic serve 
+ionic build android
+ionic emulate android
+--Crear imagenes para icon y splash
+--debe estar los archivos icon.png, icon.psd o icon.ai y tambien splash.png, splash.psd o  splash.ai en \resources
+ionic resources
+--para abrir otras paginas dentro de la aplicacion
+ionic plugin add cordova-plugin-inappbrowser
+--instalar plugin para compartir imagenes
+cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git 
+cordova plugin add https://github.com/gitawego/cordova-screenshot.git
+ 
+bower list
+bower install ngCordova --save
+bower install moment --save
+ionic plugin add cordova-plugin-inappbrowser
+
+
+https://www.youtube.com/watch?v=fo4aQfkWNFg&list=PLEtcGQaT56chdXOZeYY8uyFeHqDZQqgVg&index=25
+
+https://www.youtube.com/watch?v=v5MRjk8Lj5o&list=PLEtcGQaT56cgHfdvGguisToK90z321pRl
+
+---git
+git init
+git add .
+git commit -m "mi primer commit"
+git remote add origin https://github.com/joseasantacruz/GrupoFVD
+git push -u origin master
+
+git pull 
+
+git status
+
+git add <filename>
+
+git add .
+
+git commit -m "Commit message"
+
+git push
+git push --force
+
+git reset --hard  "commit id" 
